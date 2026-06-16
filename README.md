@@ -54,6 +54,7 @@ resume-review-agent/
 │   ├── hr-talent-acquisition-resume-reviewer.md   # [Permanent] ATS + HR screening
 │   ├── career-switcher-resume-reviewer.md         # [Permanent] Career transition
 │   ├── product-manager-resume-reviewer.md         # [Permanent] Product thinking
+│   ├── requirements-technical-reviewer.md         # [Permanent] Requirements gap analysis vs JD
 │   ├── summary-reviewer.md             # [Auto] Evaluates profile summary
 │   ├── experience-reviewer.md          # [Auto] Evaluates work experience
 │   ├── technical-skills-reviewer.md    # [Auto] Evaluates skills section
@@ -126,6 +127,7 @@ That's it. No setup, no dependencies, no installs.
 | "Tailor for [role]" | Re-weight lenses for a specific job title |
 | "Compare this resume with [file]" | Side-by-side analysis with another resume |
 | "Summarize changes since last review" | Diff-based summary of improvements |
+| "Check against [requirements file]" | Requirements gap analysis → `req-suggestion.md` — scores resume vs `req.txt` or JD |
 
 ---
 

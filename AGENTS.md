@@ -18,6 +18,7 @@ When asked to review, analyze, critique, or improve a resume in this repo, you M
 | **HR / Talent Acquisition** | `agents/hr-talent-acquisition-resume-reviewer.md` |
 | **Career Switcher** | `agents/career-switcher-resume-reviewer.md` |
 | **Product Manager (Tech)** | `agents/product-manager-resume-reviewer.md` |
+| **Requirements Technical Reviewer** | `agents/requirements-technical-reviewer.md` |
 
 **You must read each file.** Do not skip any perspective. Each lens evaluates different criteria and reveals different gaps.
 
@@ -116,6 +117,7 @@ These instructions apply to ANY resume-related request in this repo. You do not 
 | "Tailor for [role]" | Re-weight lenses relevant to the target role, flag top gaps, suggest specific additions |
 | "Compare this resume with [file]" | Run full review on each resume; produce side-by-side score, strength, and gap comparison |
 | "Summarize changes since last review" | Diff current review against previous; call out score changes, new issues, resolved gaps |
+| "Check against [requirements file]" | Requirements gap analysis → `req-suggestion.md` using the Requirements Technical Reviewer lens; parse a `req.txt` or JD and score the resume against each requirement |
 
 ## 4. Maintain Review & Question Files
 
@@ -136,7 +138,11 @@ When the resume (`main.tex`) is updated — sections added, removed, renamed, or
 - Follow the tone, depth, and structure of the existing question files (categorized by role lens, system design, behavioral, fundamentals). For new sections with no existing template, generate questions covering: Architecture & Design, Tech Stack Depth, System Design, and Fundamentals — modeled on the style of the existing `p1-question.md` / `p2-question.md` files.
 - Remove question files for sections that no longer exist on the resume.
 
-### 4c. Reviewer Lens Files (`agents/`)
+### 4c. Requirements Gap File (`req-suggestion.md`)
+
+When asked to check the resume against requirements (e.g., "Check against req.txt"), write the output to `req-suggestion.md` using the structure defined in `agents/requirements-technical-reviewer.md`. If `req-suggestion.md` doesn't exist, create it. If it does exist, overwrite it with the latest analysis.
+
+### 4d. Reviewer Lens Files (`agents/`)
 
 When sections on the resume change, auto-generate section-specific reviewer lenses in `agents/` using the same naming convention:
 
