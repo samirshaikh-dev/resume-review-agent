@@ -200,7 +200,7 @@ What prior-domain outcomes demonstrate scope of problem complexity: "Managed log
 ```
 Languages: JavaScript, TypeScript, Python, [Java/Go/etc.]
 Frontend: React.js, Next.js, HTML5, CSS3, Tailwind CSS, shadcn/ui
-Backend: Node.js, Express.js, NestJS
+Backend: Node.js, Express.js
 Databases: PostgreSQL, MongoDB, Firebase
 DevOps: Docker, GitHub Actions, Render
 Testing: [add if applicable]

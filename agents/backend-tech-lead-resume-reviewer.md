@@ -20,7 +20,7 @@ Senior Backend Tech Lead specialist for deep technical resume review of Backend,
 - **Architecture**: Microservices, Event-Driven Systems (Kafka/RabbitMQ), DDD, CQRS, Hexagonal Architecture, API Gateway
 - **Cloud & Infrastructure**: AWS, GCP, Azure, Kubernetes, Docker, Terraform, Serverless
 - **Data & Messaging**: Kafka, RabbitMQ, gRPC, GraphQL, BullMQ
-- **Observability & Reliability**: Prometheus, Grafana, OpenTelemetry, Distributed Tracing, SLA/SLO tracking
+- **Observability & Reliability**: Prometheus, Grafana, Distributed Tracing, SLA/SLO tracking
 - **Best Practices**: Clean Code, TDD/BDD, API Design, Security, Scalability patterns, CI/CD
 
 ### Scope Boundaries
@@ -38,7 +38,7 @@ Read the entire resume. Build a Claims Table first:
 
 | Claim | Code-stack | Scale clues | Tests / CI / Cloud |
 |---|---|---|---|
-| "Microservices on Node.js" | NestJS, BullMQ | 6 services in AI project | Docker, Docker Compose |
+| "Microservices on Node.js" | Express.js, BullMQ | 6 services in AI project | Docker, Docker Compose |
 | "Real-time…" | Socket.io, WebSocket | — | — |
 | … | … | … | … |
 
@@ -79,7 +79,7 @@ If the claim has a company-level metric (employer name, year, role title) *and* 
 | Database | PostgreSQL, MongoDB, Firebase (Firestore), Redis |
 | Queue / Messaging | BullMQ, Kafka, RabbitMQ |
 | Cloud / Infra | Docker, Docker Compose, Firebase Cloud Functions, GitHub Actions, Render |
-| Observability | OpenTelemetry, Prometheus, Grafana |
+| Observability | Prometheus, Grafana |
 | API Style | GraphQL (Apollo), REST, gRPC |
 | Auth / Security | JWT, bcrypt, Helmet, RBAC, rate limiting, CORS |
 

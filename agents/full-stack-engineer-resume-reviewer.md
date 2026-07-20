@@ -130,11 +130,11 @@ Double down on primary axis evidence; no real cross-layer evidence → no Full S
 ### Step 11 — Skills Section — Suggested Re-Org (Full-Stack)
 ```
 Frontend: React.js, Next.js, TypeScript, Tailwind CSS, shadcn/ui, Framer Motion, HTML5, CSS3
-Backend: Node.js, Express.js, NestJS, GraphQL (Apollo), REST APIs, JWT, Socket.io
+Backend: Node.js, Express.js, GraphQL (Apollo), REST APIs, JWT, Socket.io
 Databases & ORMs: PostgreSQL, MongoDB, Sequelize
-Messaging & Queues: BullMQ, Kafka
+Messaging & Queues: BullMQ
 DevOps & Cloud: Docker, GitHub Actions, Render, Firebase Cloud Functions
-Observability: OpenTelemetry, Prometheus, Grafana
+Observability: Prometheus, Grafana
 Testing: [add if true]
 ```
 
@@ -145,7 +145,7 @@ Testing: [add if true]
 2. [Frontend] You used Tailwind + shadcn/ui. Did you build any custom components? How did you ensure consistency across pages?
 3. [Frontend] How do you manage state in a React+GraphQL app? Where does the JWT live and how does it get refreshed?
 4. [Backend] How did you handle rate limiting at HTTP vs GraphQL layers? What algorithm and where does state live?
-5. [AI Triage] Explain the observability stack (OpenTelemetry + Prometheus + Grafana). What custom metrics did you define?
+5. [AI Triage] Explain the observability stack (Prometheus + Grafana). What custom metrics did you define?
 
 #### System Design
 6. Design a real-time notification system supporting push, email, and in-app notifications. What's your queue strategy?
