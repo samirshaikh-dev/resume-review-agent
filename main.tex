@@ -106,11 +106,11 @@
     \item Developed a dual-portal dashboard in Next.js with HTTP Long Polling for sub-second ticket status synchronization; instrumented system health using \textbf{Docker Compose, Prometheus, and Grafana}.
   \subListEnd
 
-  \projectHeader{Sahara Tyre -- WhatsApp Campaign Automation}{Node.js, Express, React Native, TypeScript, Socket.io, Google Sheets API}{https://github.com/samirshaikh-dev/sahara-tyre-whatsapp-campaigner}{https://samir-portfolio-dev.vercel.app/projects/whatsapp-campaigner}
+  \projectHeader{Job Application Automation Platform}{Node.js, TypeScript, Express, BullMQ, Redis, MongoDB, Docker, Resend}{https://lnkd.in/d9G8PjzH}{https://lnkd.in/d9G8PjzH}
   \subListStart
-    \item Engineered an automated bulk messaging platform with a React Native (Expo) mobile client and Express.js REST backend, reducing customer outreach time by over 70\%.
-    \item Designed a resilient queue processor integrating Google Sheets API with rate-limited batch delivery to adhere to strict WhatsApp Web API concurrency thresholds.
-    \item Handled continuous session persistence using Socket.io and automated zero-downtime deployment pipelines via GitHub Actions and Render.
+    \item Architected a distributed job-application dispatch engine using a pluggable provider abstraction (Strategy pattern), enabling seamless transport switching between \textbf{SMTP} and HTTP-based \textbf{Resend API}.
+    \item Designed asynchronous background queues via \textbf{BullMQ and Redis}, decoupling batch ingestion from email delivery latency and implementing granular failure tracking to isolate errors without aborting batches.
+    \item Instrumented end-to-end observability with structured logging, correlated Request IDs, and latency health checks; containerized \textbf{MongoDB and Redis} via \textbf{Docker} for isolated local testing.
   \subListEnd
 
   \projectHeader{Eventify -- Full-Stack Event Management Platform}{React, Node.js, Express, MongoDB, GraphQL (Apollo), Tailwind CSS, JWT}{https://github.com/samirshaikh-dev/eventify}{https://samir-portfolio-dev.vercel.app/projects/eventify}
